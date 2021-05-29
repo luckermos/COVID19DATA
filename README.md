@@ -1,4 +1,6 @@
-# Descrição
+# COVID-19 Data
+
+## Descrição
 
 Extrai e salva em `.rds` os dados da pandemia de COVID-19 no Brasil e no Mundo por meio da API.
 
