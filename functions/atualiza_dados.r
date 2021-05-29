@@ -1,10 +1,10 @@
 atualiza_dados_painel_covid <- function(){
   t <- download_dataset("jhu")
   
-  saveRDS(t, "actual_data/covid_ms.rds")
+  saveRDS(t, "actual_data/covid_jhu.rds")
   
   t <- download_dataset("ms-br")
   
-  saveRDS(t, "actual_data/covid_jhu.rds")
+  saveRDS(t, "actual_data/covid_ms.rds")
   
 }
